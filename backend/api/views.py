@@ -1,5 +1,5 @@
 from django.shortcuts import render
-# Imported libs
+# Imported libraries
 from django.contrib.auth.models import User
 from rest_framework import generics
 from .serializers import NoteSerializer, UserSerializer # The serializers file we made
