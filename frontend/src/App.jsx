@@ -32,8 +32,9 @@ function App() {
                 }
             />
             
-            /*Routes to the login, register and other pages are not protected*/
+            /*Routes to the login, logout, register and other pages are not protected*/
             <Route path="/login" element={<Login />} />
+            <Route path="/logout" element={<Logout />} />
             <Route path="/register" element={<RegisterAndLogout />} />
             <Route path="*" element={<NotFound />}></Route>
         </Routes>
