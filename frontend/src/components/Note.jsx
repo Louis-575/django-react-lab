@@ -1,4 +1,5 @@
 import React from "react"
+import "../styles/Note.css"
 
 function Note({note, onDelete}){ /* Takes the note and an onDelete function as arguments */
     
